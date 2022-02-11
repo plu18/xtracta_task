@@ -1,9 +1,6 @@
 import pandas as pd
-import json
-import re
 
 from src.dataloader import SupplierDataLoader, InvoiceDataLoader
-
 from src.preprocessor import SupplierPreprocessor, InvoicePreprocessor
 
 import argparse
